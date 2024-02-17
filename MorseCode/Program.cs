@@ -10,6 +10,7 @@ namespace MorseCode
             string choice;
             Console.WriteLine("Select an option:\n1.Generate to Morse.\n2.Generate from Morse ");
             choice = Console.ReadLine();
+            Console.Clear();
             if (choice == "1")
             {
                 Console.WriteLine("Enter the text to be translated into Morse code:");
